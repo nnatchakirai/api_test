@@ -1,2 +1,6 @@
 .venv/
-output/
+# 모든 CSV 제외
+*.csv
+
+# Git으로 추적할 원본 CSV 파일만 예외로 허용 (예시 파일명)
+!gimhae_data.csv
